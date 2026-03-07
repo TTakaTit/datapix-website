@@ -12,9 +12,7 @@ export function DigitalSolutionsSection() {
                         {/* Subtle background glow/noise could go here */}
                         <div className="relative z-10 h-full flex flex-col">
                             <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                                Digitale Lösungen mit<br />
-                                Fokus auf Umsatz und<br />
-                                Wachstum
+                                Digitale Lösungen mit Fokus auf Umsatz und Wachstum
                             </h2>
                             <p className="text-gray-400 text-lg mb-8 max-w-md font-medium">
                                 Wir verstehen, dass Technologie nur ein Mittel zum Zweck ist. Unser Ziel ist es, Lösungen zu bauen,
