@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 export function DigitalSolutionsSection() {
     return (
         <section className="w-full">
-            <div className="bg-white rounded-[32px] sm:rounded-[40px] py-24 overflow-hidden border border-gray-200/50">
+            <div className=" py-24 overflow-hidden border border-gray-200/50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
 

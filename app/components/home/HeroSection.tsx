@@ -5,7 +5,6 @@ import bannerImage from '@/assets/banner/fokus 1.png';
 export function HeroSection() {
     return (
         <section className="w-full">
-            <div className="relative w-full min-h-[95vh] rounded-[32px] sm:rounded-[40px] flex flex-col items-center justify-center overflow-hidden pt-10 pb-20 bg-[#f8f9fa] shadow-sm border border-gray-200/50">
                 {/* Background Image & Overlays */}
                 <div className="absolute inset-0 z-0">
                     <Image
@@ -103,9 +102,8 @@ export function HeroSection() {
                         </a>
                     </div>
                     <div className="w-8 h-8 bg-transparent" style={{ borderBottomLeftRadius: '24px', boxShadow: '-12px 12px 0 12px #E5E5E5' }}></div>
-                </div>
-
             </div>
+
         </section>
     );
 }
