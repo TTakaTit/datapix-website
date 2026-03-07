@@ -45,23 +45,23 @@ export function BenefitsSection() {
             <div className="bg-white rounded-[32px] sm:rounded-[40px] py-24 overflow-hidden border border-gray-200/50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
-                <h2 className="text-4xl md:text-5xl font-bold text-[#101828] mb-16 max-w-2xl mx-auto">
-                    Darum entscheiden sich Kunden für Datapix
-                </h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-[#101828] mb-16 max-w-2xl mx-auto">
+                        Darum entscheiden sich Kunden für Datapix
+                    </h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {benefits.map((item) => (
-                        <div key={item.id} className="bg-[#f8f9fa] border border-gray-100 p-8 rounded-3xl text-left hover:shadow-xl transition-shadow cursor-pointer group">
-                            <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-gray-100 group-hover:scale-110 transition-transform">
-                                {item.icon}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {benefits.map((item) => (
+                            <div key={item.id} className="bg-[#f8f9fa] border border-gray-100 p-8 rounded-3xl text-left hover:shadow-xl transition-shadow cursor-pointer group">
+                                <div className="bg-white w-16 h-16 rounded-2xl flex items-center justify-center mb-6 shadow-sm border border-gray-100 group-hover:scale-110 transition-transform">
+                                    {item.icon}
+                                </div>
+                                <h3 className="text-xl font-bold text-[#101828] mb-3">{item.title}</h3>
+                                <p className="text-gray-500 font-medium leading-relaxed">
+                                    {item.desc}
+                                </p>
                             </div>
-                            <h3 className="text-xl font-bold text-[#101828] mb-3">{item.title}</h3>
-                            <p className="text-gray-500 font-medium leading-relaxed">
-                                {item.desc}
-                            </p>
-                        </div>
-                    ))}
-                </div>
+                        ))}
+                    </div>
 
                 </div>
             </div>
