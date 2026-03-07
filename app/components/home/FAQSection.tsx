@@ -28,9 +28,7 @@ export function FAQSection() {
         <section id="FAQ" className="w-full">
             <div className="bg-[#f8f9fa] rounded-[32px] sm:rounded-[40px] py-24 overflow-hidden border border-gray-200/50">
                 <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-10">
-
                     <h2 className="text-4xl font-bold text-[#101828] mb-12">FAQ</h2>
-
                     <div className="flex flex-col gap-4">
                         {faqs.map((faq, index) => {
                             const isOpen = openIndex === index;
@@ -60,7 +58,6 @@ export function FAQSection() {
                             )
                         })}
                     </div>
-
                 </div>
             </div>
         </section>

@@ -23,7 +23,9 @@ export default function Home() {
       <BenefitsSection />
       <TeamSection />
       <FAQSection />
-      <CTASection />
+      <div className="relative w-full min-h-[95vh] rounded-[32px] sm:rounded-[40px] flex flex-col items-center justify-center overflow-hidden pt-10 pb-20 bg-[#C4C4C4] shadow-sm border border-gray-200/50">
+        <CTASection />
+      </div>
     </main>
   );
 }
