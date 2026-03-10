@@ -10,6 +10,17 @@
   --color-foreground: var(--foreground);
   --color-datapix-main: #101828;
   --font-urbanist: var(--font-urbanist);
+  --shadow-light-softglow:
+    0px 7.77px 2.21px 0px #0000000F,
+    0px 3px 3px 0px #0000001A,
+    inset 0px -8px 0px 0px #0000000D,
+    inset 0px 4px 0px 0px #FFFFFF99;
+  --shadow-dark-softglow:
+    0px 7.77px 2.21px 0px #0000000F,
+    0px 3px 3px 0px #0000001A,
+    inset 0px -8px 0px 0px #2E2E2EFF,
+    inset 0px 4px 0px 0px #FFFFFF4D;
+
 }
 
 @media (prefers-color-scheme: dark) {
